@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Food Ordering System</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+        }
+
+        header {
+            background: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px;
+            background: #ffe6d5;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ff5722;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .menu {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .menu h2 {
+            margin-bottom: 20px;
+        }
+
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            background: white;
+            padding: 20px;
+            width: 220px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+
+        .item button {
+            padding: 8px 15px;
+            background: #ff5722;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .about {
+            padding: 40px;
+            background: #fff3e0;
+            text-align: center;
+        }
+
+        footer {
+            background: #ff5722;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>FoodEase – Online Food Ordering</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Order Your Favorite Food</h2>
+        <p>Fast • Fresh • Delivered to your Doorstep</p>
+        <a href="#menu" class="btn">Order Now</a>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="item">
+                <h3>Pizza</h3>
+                <p>Cheese Burst / Farmhouse / Margherita</p>
+                <button>Order</button>
+            </div>
+
+            <div class="item">
+                <h3>Burger</h3>
+                <p>Veg / Chicken / Double Patty</p>
+                <button>Order</button>
+            </div>
+
+            <div class="item">
+                <h3>Drinks</h3>
+                <p>Coke / Pepsi / Mojito</p>
+                <button>Order</button>
+            </div>
+
+            <div class="item">
+                <h3>Fries</h3>
+                <p>Classic / Peri Peri / Cheesy</p>
+                <button>Order</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            We offer fast and reliable food delivery services from top restaurants. Choose your meal, place your order,
+            and enjoy hot and delicious food delivered to your home.
+            Our system is designed to provide a seamless ordering experience.
+        </p>
+    </section>
+
+    <footer id="contact">
+        <p>Contact us: foodease@gmail.com</p>
+        <p>&copy; 2025 FoodEase</p>
+    </footer>
+
+</body>
+</html>
